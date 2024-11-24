@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  js-password-gen:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '8080:8080'
+    volumes:
+      - node-modules:/app/node_modules
+    tty: true
+
+volumes:
+  node-modules:
