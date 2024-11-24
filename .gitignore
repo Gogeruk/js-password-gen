@@ -1,0 +1,10 @@
+# IntelliJ IDEA files
+.idea/
+.idea/shelf/
+.idea/workspace.xml
+.idea/httpRequests/
+.idea/dataSources/
+.idea/dataSources.local.xml
+.idea/js-password-gen.iml
+.idea/modules.xml
+.idea/vcs.xml
